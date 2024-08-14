@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: green;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    background-color: yellow; 
+    width: 80%;
+    height: 50px;
+    margin: 10px;
+}
+
+main {
+    display: flex;
+    background-color: blue;
+    height: 450px;
+}
+
+article {
+    background-color: lightblue; 
+    flex: 3;
+    margin: 10px;
+}
+
+aside {
+    background-color: lightblue;
+    flex: 1;
+    margin: 10px;
+}
+
+footer {
+    background-color: orange;
+    height: 100px;
+}
